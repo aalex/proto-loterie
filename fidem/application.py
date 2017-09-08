@@ -261,6 +261,7 @@ class Application(object):
                     self.do_gagnants()
                 else:
                     print("Commande inconnue : \"%s\"" % (command))
+                    print("Saisir \"aide\" pour la liste des commandes")
 
 
 if __name__ == '__main__':
